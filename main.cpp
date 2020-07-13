@@ -3,9 +3,6 @@
 
 #include "fileupload.h"
 
-
-#include "fileupload.h"
-
 void testGet(FileUpload &fileupload)
 {
     fileupload.getData("https://postman-echo.com/get?foo1=bar1&foo2=bar2");
